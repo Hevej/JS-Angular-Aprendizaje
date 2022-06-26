@@ -6,7 +6,7 @@ const helloPromise = () => {
             reject ('Ups!!');
         }
     });
-}
+};
 
 helloPromise()
     .then(response => console.log(response))
